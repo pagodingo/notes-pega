@@ -31,4 +31,3 @@ Parent properties | Child properties
 ### Case Status
 
 Case status is how users identify the state of each case.
-

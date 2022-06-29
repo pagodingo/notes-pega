@@ -53,7 +53,6 @@ score of Top in class = Value List
 Multi Value Multi records = Page List
 Multi value Single Record = Value List
 
-
 ## Data relationships
 
 ### Relationships between data objects
@@ -97,22 +96,11 @@ In App Studio, data pages identify how to obtain data from a system of record.
 
 The Integration Designer provides a single location in App Studio for viewing all the data objects, data pages, object dependencies, and external systems in an application. The Integration Designer also provides insight into how these entities are connected.
 
-
 ### Integration Map
 
 The Integration Map is a diagram of the data objects, cases, and systems of record in the application and where they are sourced. The Integration Map can optionally be displayed above the Integration Designer.
 
 The Integration Designer helps you understand how the data objects, data pages, case types, and systems of record relate to one another.
-
-## Quick Note To Self
-
-Remember, you're not going to remember all of this. Focus on this instead -
-
-There are only 7 tabs in Pega (Theme Cosmos, your main UI), and one of them is literally an overview tab.
-
-That leaves only 6 areas left that can be explored, and possibly have information you don't understand.
-
-It's only 6. Get the general gist of what each 6 tabs offer and you're on your way.
 
 ### Data Pages Review
 
