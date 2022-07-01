@@ -55,7 +55,6 @@ Save Type: DB Save - Class name (Products Catalog).
     - Passport = 40
 13. Ensure your steps do not connect to eachother. They should all be connected to your Decision independently from one another.
 
-
 ## Decision Tables
 
 1. In prev case type - create stage Product Catalog
