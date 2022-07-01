@@ -53,4 +53,4 @@ A Work queue has more advanced configurations. Organization Name, Division, and 
 <img src="./images/create-work-group.png" alt="create work group"></img>
 
 **Work Queue Creation**
-<img src="./images/create-work-group.png" alt=" create work queue"></img>
+<img src="./images/create-work-queue.png" alt=" create work queue"></img>
