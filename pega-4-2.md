@@ -2,26 +2,26 @@
 
 ## Activities  in Pega
 
-Activity is one of Pega's Rules that performs jobs/tasks.
+An Activity is a Pega Rule that performs a list of actions.
 
-They contain steps (or steps). Written very much like an algorithm would be in most programming languages.
+They contain steps, and are very much comparable to algorithms in most general programming languages.
 
-Activities in Pega are very useful, but it's not recommended that you use them often. The reason being, activities require you to **write your own code.**
+Using activities in Pega can be very useful, but it's not recommended that you use them often. The reason being, activities can require you to **write your own code.**
 
-This can introduce complexities in your app, if you do not write code that follows Pega standards.
+This can introduce complexities in your app if or when you do not write code that follows standard Pega conventions.
 
-If no other ruletype supports your requirements, then activities should be considered. In all other cases, using Pega's provided ruletypes is suggested.
+If no other Pega ruletype supports your requirements, then activities can be considered. In all other cases, using Pega's provided ruletypes is <u>highly suggested</u>.
 
-For example, Pega offers Savable Data Pages to store data in applications internally.
+For example, Pega offers Savable Data Pages to store data in applications.
 
-When connecting to databases and saving data externally - you'll have to use activities.
+When connecting to databases and saving data externally - you'll have to use activities. Pega provides no other option.
 
 |When to use Activities|When not to use Activities|
 |-|-|
-|Saving records to database(s) with special requirements: (|Declare expressions for data calculations|
-|Deleting records from the database|Report definitions for database query|
-|Background Processes|Data transform for data manipulations|
-|To use the property-set message or page-set message| |
+|Saving records to database(s) with special requirements. Or when databases are external.|Declare expressions for data calculations.|
+|Deleting records from the database.|Report definitions for database query.|
+|Background Processes.|Data transform for data manipulations.|
+|To use the property-set message or page-set message.| |
 
 ## Creating an Activity
 
@@ -32,17 +32,17 @@ Activity columns:
 - step page
 - description
 
-|Label|Method|Step Page| description|jump|
+|Label|Method|Step Page|Description|Jump|
 |-|-|-|-|-|
-|step name ( think of algorithms)|Predefined Pega methods (Call, Java, Connect)| Specifies which class the activity should affect (new pages can be added under > Pages & Classes.. The beginning class will be the primary page, and the Supporting class will become the secondary| description of the method| Specificies (conditionally) which step to jump to.
+|Step name (think of a list of instructions).|Predefined Pega methods (Call, Java, Connect).| Specifies which class the activity should affect (new pages can be added under > Pages & Classes.. The beginning class will be the primary page, and the Supporting class will become the secondary.|Method Description| Specificies (conditionally) which step to jump to.|
 
-|loop|when|
+|Loop|When|
 |-|-|
-|loop step continuously|set conditions required to run step|
+|To loop a step continuously.|To set conditions required to run each ste.p|
 
-Next to When, there is an arrow that displays the parameters for each method.
+> Next to `When`, there is an arrow `>` that displays additional parameters (required & optional) for each method.
 
-Additional configurations are provided as tabs (above the acivity creation window):
+Additional Actiity configurations (tabs) :
 
 - Parameters
 - Pages & Classes
