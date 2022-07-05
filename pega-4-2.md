@@ -94,4 +94,4 @@ Open Flow Action > Post Processing > Run Activity: ___________.
 
 <img src="./images/activity-example-list-overview.png"/>
 
-> To resolve first list items not saving: Class > Data Model > Data Transform > pySetFieldDefaults > **Delete row labeled *"...yourDataType.(1)"**
+> To resolve first list items not saving: App Explorer > "yourClass" > Data Model > Data Transform > pySetFieldDefaults > **Delete row labeled *"...yourDataType.(1)"**
