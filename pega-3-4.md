@@ -50,7 +50,7 @@ To use the Delivery Boys example, a manager may be the head delivery boy, or res
 A Work queue has more advanced configurations. Organization Name, Division, and the Unit it belongs to. This is because a queue in essence is moreso owned by case types (which in Pega is a class, and therefore has scope).
 
 **Work Group Creation**
-<img src="./images/create-work-group.png" alt="create work group"></img>
+<img src="./images/create-work-group.png" alt="create work group"/>
 
 **Work Queue Creation**
-<img src="./images/create-work-queue.png" alt=" create work queue"></img>
+<img src="./images/create-work-queue.png" alt=" create work queue"/>
