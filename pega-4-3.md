@@ -50,4 +50,4 @@ The Live UI Tool will appear. Its appearance is comparable to dev tools (right c
 
 <img src="./images/dev-studio-open-live-ui.png" />
 
-When editting cases, you can select & open fields from the Live UI tree panel and edit them, without having to navigate to the particular section rule in your app explorer.
+When editting cases, you can select & open fields from the Live UI panel and edit them, without having to navigate to the particular section rule in your app explorer.
