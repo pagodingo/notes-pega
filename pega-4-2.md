@@ -34,7 +34,7 @@ Activity columns:
 
 |Label|Method|Step Page|Description|Jump|
 |-|-|-|-|-|
-|Step name (think of a list of instructions).|Predefined Pega methods (Call, Java, Connect).| Specifies which class the activity should affect (new pages can be added under > Pages & Classes.. The beginning class will be the primary page, and the Supporting class will become the secondary.|Method Description| Specificies (conditionally) which step to jump to.|
+|Step name (think of a list of instructions).|Predefined Pega methods (Call, Java, Connect).|A step page is a page in memory on which the method is processed. New pages are added under > Pages & Classes. The beginning class will be the primary page, and the Supporting class will become the secondary.|Method Description| Specificies (conditionally) which step to jump to.|
 
 |Loop|When|
 |-|-|
