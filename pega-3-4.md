@@ -17,6 +17,10 @@ There are four types of routing:
 * Business Logic (Route to: the above, based on more configurable conditions)
 * Custom (Route to: Pega-defined routes)
 
+```md
+Work List is for one, Work Queue is for many.
+```
+
 Routing is configured under the same panel as *Configure View* in case lifecycles.
 
 To route to an individual user, use the dropdown labeled (*Route to:*) located in any case's step settings to define which user is allowed to modify this step.
