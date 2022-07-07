@@ -12,7 +12,7 @@ In total, there are <a href="https://docs.pega.com/implementation-methodology-an
 
 To display your application's guardail compliance score:
 
-Guardrail compliance is scored in pega (%).
+Guardrail compliance is scored (%).
 
 To view: Configure > Application > Quality > Dashboard
 
