@@ -51,3 +51,14 @@ The Live UI Tool will appear. Its appearance is comparable to dev tools (right c
 <img src="./images/dev-studio-open-live-ui.png" />
 
 When editting cases, you can select & open fields from the Live UI panel and edit them, without having to navigate to the particular section rule in your app explorer.
+
+### Importing files (images) into Pega Applications
+
+1. Create menu > Technical > Binary File
+2.
+    -  Define file name
+    -  Define file extenstion
+    -  Define file directory (create folder)
+3. Create & Open
+4. Upload file.
+5. Save.
