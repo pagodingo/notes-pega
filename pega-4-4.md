@@ -16,7 +16,7 @@ Guardrail compliance is scored (%).
 
 To view: Configure > Application > Quality > Dashboard
 
-To raise guardrail compliance:
+To raise guardrail compliance score:
 
 Dashboard > Guardrail (**View details**) > Rules with Warnings.
 
