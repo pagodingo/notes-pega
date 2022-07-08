@@ -42,7 +42,7 @@ Activity columns:
 
 > Next to `When`, there is an arrow `>` that displays additional parameters (required & optional) for each method.
 
-Additional Actiity configurations (tabs) :
+Additional Activity configurations (tabs) :
 
 - Parameters
 - Pages & Classes

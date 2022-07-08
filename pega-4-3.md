@@ -59,6 +59,6 @@ When editting cases, you can select & open fields from the Live UI panel and edi
     -  Define file name
     -  Define file extenstion
     -  Define file directory (create folder)
-3. Create & Open
+3. Create & Open.
 4. Upload file.
 5. Save.
