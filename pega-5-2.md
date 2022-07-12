@@ -71,7 +71,7 @@ Circumstancing rules can only be focused upon:
 ```md
 Observation: There aren't many situations where a circumstance solves a problem that a Decision Table or comparable rules could not.
 
-Response: "If if you have 20-30 conditions, writing a big decision table can be hectic. Additionally, a Decision Table will evaluate each and every condition until a match is met, which takes more time.
+Response: "If you have 20-30 conditions, writing a big decision table can be hectic. Additionally, a Decision Table will evaluate each and every condition until a match is met, which takes more time.
 
 Fix: Use a data reference to lookup key/value pairs.
 
