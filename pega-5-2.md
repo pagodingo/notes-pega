@@ -79,9 +79,9 @@ Response: "Yes, but even that is **costly**. You have to create additional data 
 
 Is the cost of a few more operations (through calling new data pages) truly **more expensive** than the added complexities a Circumstance brings?
 
-If the only argument is that "circumstances are actually employed behind-the-scenes as well, and evaluates faster than key/value or decision table.": The Pega Platform isn't very fast as it is. So, the benefit of circumstances still isn't transparent.
+If the only argument is that "circumstances are actually employed behind-the-scenes, and they evaluate faster than key/value pairs and decision tables.": The Pega Platform isn't very fast as it is. So, the benefit of circumstances still isn't apparent.
 
 Pega boasts ease-of-use, and simplicity. Why design something that's supposedly fast, but not simple, if simple's your mission statement?
 
-The speed battle's already lost - stick to simplicity. Tools should be intuitive.
+The speed battle's lost - stick to simplicity. Tools should be intuitive.
 ```
