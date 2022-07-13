@@ -23,9 +23,11 @@
 <img src="./images/childtoparent-updatecase.png" />
 <img src="./images/childtoparent-datatransform.png" />
 <img src="./images/childtoparent-referencedpages.png" />
+
 ---
-4. Run:
----
+
+**Run:**
+
 <img src="./images/childtoparent-1.png" />
 <img src="./images/childtoparent-2.png" />
 <img src="./images/childtoparent-3.png" />
