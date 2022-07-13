@@ -12,7 +12,7 @@
                - Step: Display Child Data
                     - 1 field: Data from Child -- Type: text(single line) --
 2. **Create Child Case**
-     - <u>1  Stages</u>
+     - <u>1  Stage</u>
           - Stage (New)
                - Step: Data (Collect info) -- Set Case Status to *Resolved-Completed*
                     - 1 field: _Data To Send_ --Type: text (single line)
