@@ -14,7 +14,7 @@
 2. **Create Child Case**
      - <u>1  Stages</u>
           - Stage (New)
-               - Step: Data to Send (Collect info) -- Set Case Status to *Resolved-Completed*
+               - Step: Data (Collect info) -- Set Case Status to *Resolved-Completed*
                     - 1 field: _Data To Send_ --Type: text (single line)
                - Step: Update Case (Automation) 
                > (ensures parent case is refreshed and new data is shown)
