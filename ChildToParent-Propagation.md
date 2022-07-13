@@ -8,7 +8,7 @@
                - Step: New (Blank)
                - Step: Create Child Case (Automation)
                - Step: Wait (Automation): **condition**: *until child case(s) resolve*
-           - Stage (Display Child Data)
+           - Stage (Display Child Data) 
                - Step: Display Child Data
                     - 1 field: Data from Child -- Type: text(single line) -- 
 2. **Create Child Case**
