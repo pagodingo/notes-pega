@@ -1,4 +1,4 @@
-# Common Scenarios And Their Solutions
+# Common Business Scenarios, and their Pega  Applicative Solutions
 
 
 ## Refining an Agile Workbench backlog
@@ -17,7 +17,21 @@ InsCorp wants to ensure that customers can cancel service requests at any time. 
 
 The following table provides the credentials you need to complete the challenge.
 
-## Control the worlflow based on business context
+## Control the workflow based on business context
 
 When customers submit a request for roadside assistance, a customer service representative (CSR) manually validates whether the customer is enrolled in roadside assistance coverage. To improve efficiency, stakeholders want to automate this step. Replace the existing Approve/Reject step with an automated decision that sends the case to the Approval Rejection stage if the customer is unenrolled.
+
+> This scenario introduces efficient methods of how to quickly add and connect process shapes to each other in the process builder.
+
+## Attaching PDF files to a case
+
+InsCorp wants to ensure that customers receive an email with a receipt of services, including a breakdown of the services provided. Add two automations, Create PDF and Send email, to the service case type to send an email to customers with the service total and an attachment with the breakdown of the service charges.
+
+## Creating a child case
+
+InsCorp is launching a roadside assistance service as a coverage option for automobile insurance policies. Configure the Assistance request case type to create a Service case during the Service stage to perform the selected services.
+
+## Adding a duplicate case type search
+
+InsCorp wants to ensure that only one assistance request case is processed for each request. Customers that send assistance requests might have difficulty determining their exact location. If a customer submits multiple requests for the same vehicle, but for slightly different locations, the application should identify the new case as a duplicate case.
 
