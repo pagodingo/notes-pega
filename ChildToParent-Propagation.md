@@ -1,4 +1,4 @@
-# Propagating Data from Child to Parent
+# Propagating data from child to parent cases
 
 ## Propagation through Data Transforms & Automation Shapes
 
