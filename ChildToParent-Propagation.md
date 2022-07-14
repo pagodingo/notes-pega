@@ -1,6 +1,6 @@
-# Propagation through Data Transforms & Automation Shapes
+# Propagating Data from Child to Parent
 
-## Propagating Data from Child to Parent
+## Propagation through Data Transforms & Automation Shapes
 
 1. **Create Parent Case**
      - <u>2  Stages</u>
