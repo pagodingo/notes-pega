@@ -15,7 +15,7 @@
      - <u>1  Stage</u>
           - Stage (New)
                - Step: Data (Collect info) -- Set Case Status to *Resolved-Completed*
-                    - 1 field: _Data To Send_ --Type: text (single line)
+                    - 1 field: _Data_ --Type: text (single line)
                - Step: Update Case (Automation)
                > ensures parent case is refreshed and new data is shown
 3. Child Case > Open Process > Configure **Update Case**
