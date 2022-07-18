@@ -93,3 +93,17 @@ GoGoRoad stakeholders want to ensure customer satisfaction by allowing the appli
 ## Creating users and roles
 
 GoGoRoad provides roadside assistance services through contracted vendors. To ensure customer satisfaction and service consistency across vendors, auditors review common service requests (including unlock vehicle, tire repair, and battery charge). The new auditor role has a unique interface. As the Director of Vendor Management, create a new role, and provide application access for the new auditor.
+
+## Complete application
+
+U-Plus Bank provides people with the financial products needed to achieve their financial goals. As part of its digital transformation, U-Plus Bank is creating a web-based account management application built on Pega Platform™. U-Plus wants to provide potential customers with the ability to open a new checking, savings, or investment account online through this application.
+
+To open an account, the customer completes the following process:
+
+The customer selects one of the financial products offered by U-Plus Bank.
+The customer identifies the owner and any co-owners of the account.
+The customer commits to funding the account with an initial deposit and identifies accounts at other financial institutions from which funds are transferred to complete the deposit.
+To complete the account opening process, the application emails a summary of the transaction to the customer. This email confirms the selections made during the process. 
+
+As part of the development team implementing the account management application, you are tasked with configuring functionality in the account opening and account selection case types. The following user stories describe the work assigned to you, which you must complete before releasing the application. You can access these stories in your exercise environment by using Agile Workbench. As part of this mission challenge, set a due date for each user story and update the status of each story as you meet the acceptance criteria.
+
