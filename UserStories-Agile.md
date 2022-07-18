@@ -16,5 +16,6 @@ Basic condition: Choose account type is the same
 Weighted conditions sum to at least 50:
 Name in the Account data relationship is equal to .Account.Name. This condition has a weight of 30.
 Last Name in the Owner data relationship is equal to .Owner.LastName. This condition has a weight of 25.
+
 ***US-1001 Acceptance criteria***
 When a user creates two Open account cases with matching account types, account names, and owner last names, the current case is identified as a potential duplicate of the previous case.
