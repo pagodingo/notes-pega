@@ -123,3 +123,18 @@ GoGoRoad stakeholders want to allow Territory Managers to add new vendors as ser
 
 The following image displays the reporting structure for the author@gogoroad user.
 
+> `Sending approvals to one user or another`
+
+## Automating decisions with decision tables
+
+An organization is launching an application that facilitates loan requests. Customers initiate a loan request and enter their credit score and loan amount. Configure a decision table and declare expression, so that the loan rate is determined automatically based on the credit score and loan amount the customer enters. Use the values in the following table to configure your decision table:
+
+|Credit score > |Loan amount > |Return |
+|-|-|-|
+|if	800|	50000	|.0225|
+|else if 800|	0|	.0200|
+|else if 700|	50000|	.0325 |
+|else if	700|	0|	.0275|
+|else if	200|	50000	|.045|
+|else if	200	|0	|.0425|
+|otherwise	| 	 |	.07
