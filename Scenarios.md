@@ -1,8 +1,6 @@
 # Common Business Scenarios, and their Pega  Applicative Solutions
 
-The reason for listing each of these scenarios (from Pega Academy Exercises), is because I know I won't be able to remember all of the other information given - **I can't retain all of it.**
-
-My primary focus is to first **finish** the work that's required. Then, **revise and practice** what I've marked as important. For example, **<u>these scenarios:</u>**
+This list serves as reference to primary examples of  pega solutions that apply to common business situations
 
 ## Refining an Agile Workbench backlog
 
@@ -156,3 +154,16 @@ An organization is launching an application that facilitates loan requests. Cust
 |	 |	200|	0|	.0425|
 otherwise | | |	 	 	 	.07|
 
+## Configuring cascading approvals with an authority matrix
+
+As the repair service grows, GoGoRoad stakeholders want to allow Territory Managers to submit new vendors as service providers for approval. If the vendor is The Automobile Association (TAA), which has an existing relationship with GoGoRoad, the New Vendor case is routed to the Manager of the Territory Manager for approval. The case is then routed to a Compliance Officer, who ensures the request adheres to the agreement between TAA and GoGoRoad. If the vendor is not TAA, the New Vendor case is routed to the Manager, and then the Director for approval. Create a decision table to ensure the approval is routed appropriately. Add an Approval step to the New Vendor case type to support the described behavior.
+
+***Decision Table***
+
+| | Vendor name | Vendor approvals|
+|-|-|-| 
+|when| | "manager@gogoroad|
+|when| !=TAA | "director@gogoroad"
+|when| TAA | "compliancedirector@gogoroad"|
+
+> Note: To set `Vendor approvals` specified property: ***.VendorApprovals(`<APPEND>`).ApproverID***
