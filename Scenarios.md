@@ -167,3 +167,45 @@ As the repair service grows, GoGoRoad stakeholders want to allow Territory Manag
 |when| TAA | "compliancedirector@gogoroad"|
 
 > Note: To set `Vendor approvals` specified property: ***.VendorApprovals(`<APPEND>`).ApproverID***
+
+## Creating and managing teams of uers
+
+In Roadside Assistance cases, a customer service representative (CSR) must assign a service provider to the case, review the summary of the services provided, and submit the request. Create a team named CSR@GoGo for customer service representatives and route the Select service provider and Review service summary steps to the work queue for the team.
+
+## Validating data in Dev Studio
+
+GoGoRoad customers with Standard coverage provide credit card information during the Submission stage of an Assistance Request case to pay for services performed by the company. To reduce the chance of an error when processing the credit card information, stakeholders want to validate the credit card information provided by customers.
+
+A senior developer created an edit validate rule named IsDigit to verify that a credit card number contains only numbers. Configure a validate rule for the Enter Payment Information step to validate entries in the Card number field by applying the IsDigit edit validate rule and entries in the Expiration date field by applying the EnterPaymentInformation validate rule.
+
+### Configuring additional Data Transforms to run at case start
+
+***Create Data Transform: Set Day of Week***
+
+|action|target|relation|source|
+|-|-|-|-|
+|set|.serviceDayofWeek|equal to|@if(.ServiceDay=1,"Sunday", @if(.ServiceDay=2,"Monday", @if(.ServiceDay=3,"Tuesday", @if(.ServiceDay=4,"Wednesday", @if(.ServiceDay=5, "Thursday", @if(.ServiceDay=6, "Friday","Saturday"))))))|
+
+***pyDefault in Case Type***
+
+|action|target|relation|source|
+|-|-|-|-|
+|Set|pyUrgencyWorkClass|equal to| 10|
+|Apply Data Transform| pySetFieldDefaults| | |
+|Apply Data Transform| SetDayOfWeek| | | |
+
+## Saving data to a system of record
+
+The program manager for the roadside assistance service wants to provide users with an option to enroll when requesting service rather than automatically rejecting unenrolled users. Configure the Approval Rejection process to update the membership status of a customer record if the customer decides to enroll in the roadside assistance program. Create a data transform to copy the updated membership status and coverage level to the customer record. Then, add the data transform and a Save data page step to the Approval Rejection process to update the customer record in the database.
+
+## Customizing a view at run time
+
+GoGoRoad stakeholders want the Enter customer information view and Identify Location view to be streamlined to display the relevant information with proper validations. To achieve this request, change the coverage information of Enter customer information view to a two-column layout and add the ZIP code property to the Identify Location view with required validations.
+
+## Grouping fields in views
+
+Based on feedback, GoGoRoad's customers are unable to double-check details before submitting an Assistance Request, leading to confusion and additional time spent correcting details. The GoGoRoad management team has decided to implement a final read-only confirmation screen after customers enter all the relevant information. This confirmation screen presents all the information to the customer before allowing them to submit their Assistance Request.
+
+## Display list data in views
+
+The GoGoRoad application presents a list of all available service providers in a table. The UI consultant wants you to make the following changes to the UI: present the relevant service provider information only and configure the on-screen content to accommodate multiple screen sizes. Format the list of providers to present in a non-tabular form, using a layout to organize the display of a single item and then embedding the section in a repeating dynamic layout.
