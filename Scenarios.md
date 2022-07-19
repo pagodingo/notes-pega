@@ -107,3 +107,19 @@ To complete the account opening process, the application emails a summary of the
 
 As part of the development team implementing the account management application, you are tasked with configuring functionality in the account opening and account selection case types. The following user stories describe the work assigned to you, which you must complete before releasing the application. You can access these stories in your exercise environment by using Agile Workbench. As part of this mission challenge, set a due date for each user story and update the status of each story as you meet the acceptance criteria.
 
+## Manipulating Application Data
+
+To ensure that customers are billed for only the services provided, the program manager wants the application to display a list of the services performed by the service provider. The list must include the following information: the name of the service performed, the unit cost of the service, the number of times the service was performed, the total cost for each service, and the total cost of the services performed. On the Perform service flow, configure the CopySelectedServices data transform to copy services provided from a Service case to an Assistance request case.
+
+The following diagram displays the relationships of the Selected services Embedded data type in the Assistance Request case type, and the Services data relationship in the Service case type to the Services offered data type.
+
+## Escalating late work
+
+InsCorp is launching a roadside assistance service as a coverage option for automobile insurance policies. Customers initiate Assistance Request cases. After the service is completed, a customer service representative must review a summary of the service provided within 15 minutes and must complete the review within 30 minutes; otherwise, the assignment is considered late. To encourage assignment completion, configure the passed deadline interval to increase the urgency of the assignment by ten every 15 minutes after the Deadline interval elapses until the urgency reaches a maximum of 100.
+
+## Configuring a cascading approval with a reporting structure
+
+GoGoRoad stakeholders want to allow Territory Managers to add new vendors as service providers as the service grows. If the vendor is The Automobile Association (TAA), which has an existing relationship with GoGoRoad, the Add Vendor case is routed to the Manager of the Territory Manager for approval. If the vendor is not TAA, the Add Vendor case type is then routed to a Director for a second approval. Add an Approval step to the Add Vendor case type to support the described behavior.
+
+The following image displays the reporting structure for the author@gogoroad user.
+
