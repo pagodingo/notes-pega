@@ -138,3 +138,21 @@ An organization is launching an application that facilitates loan requests. Cust
 |else if	200|	50000	|.045|
 |else if	200	|0	|.0425|
 |otherwise	| 	 |	.07
+
+## Automating decisions with decision trees
+
+An organization is launching an application that facilitates loan requests. Customers initiate a loan request and enter their credit score, loan amount, and country. Configure a decision tree and declare expression so that the loan rate is determined automatically based on the credit score, loan amount, and country the customer enters. For this challenge, if the customer specifies Canada as the country, the loan amount does not affect the loan rate. Use the values in the following table:
+
+|Country |Credit score > |Loan amount >|	Return|
+|-|-|-|-|
+|	Canada| 800|	| 	.0200|
+|	Canada	|700|	 	|.0275|
+|	Canada	|200|	 	|.0425|
+|	 |	800	|50000|	.0225|
+| |	800	|0	|.0200|
+|	 |	700	|50000|	.0325|
+|	 |	700	|0	|.0275|
+|	 |	200	|50000|	.045|
+|	 |	200|	0|	.0425|
+otherwise | | |	 	 	 	.07|
+
