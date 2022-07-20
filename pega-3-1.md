@@ -1,4 +1,4 @@
-# <u>Pega-3-1</u>
+# <u>Pega 3-1</u>
 
 ## Recap: Data Pages and Data Transformation
 
