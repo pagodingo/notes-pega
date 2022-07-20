@@ -1,4 +1,4 @@
-# Common Business Scenarios, and their Pega  Applicative Solutions
+# Common Business Scenarios, and their Pegasystems Solutions
 
 This list serves as reference to primary examples of  pega solutions that apply to common business situations
 
