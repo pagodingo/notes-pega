@@ -1,3 +1,9 @@
 # Conditional Visibility
 
-It only works if the conditional property (*"if `.conditionalProperty` is not empty"*) and dynamically visible properties (`.propertyToHide`) are in the same field group.
+What you'll need
+
+- A property to hide
+- A property to toggle your property to hide
+- An action set upon your toggle property (**Event:** "Change"; **Action:** "Display: Refresh")
+
+
