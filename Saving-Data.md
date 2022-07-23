@@ -49,12 +49,12 @@ Here the methods you need to create:
 2. Property Set
 3. Obj Save
 
-The requirements for these methods look some like this:
+The requirements for these methods look something like this:
 
 |Method|StepPage|
 |-|-|
 |Page new|The "record" page we just created.|
-|Property Set|Hit the arrow to the left of this label and set some properties: {**Left Box:** NewRecordPage.Property#1, **Right Box:** Primary.Property#1|
+|Property Set|Hit the arrow to the left of this label {**Left Box:** NewRecordPage.Property#1, **Right Box:** Primary.Property#1|
 |Obj Save|The record page we just created.|
 
 That's it.
