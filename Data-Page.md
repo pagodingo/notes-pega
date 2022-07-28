@@ -1,4 +1,4 @@
-# Data Page:
+# Data Page
 
 At times, when we need to access data say Employee details, we need to get data from the database. But accessing it every time we need isn't a good practice so to avoid this performance degradation we use data pages in PEGA.
 
