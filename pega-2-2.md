@@ -74,6 +74,12 @@ Case Reference = Case fields or state
 
 pX, pY, pZ
 
+- **px**- Properties with prefix px are Read Only and cannot be overridden or extended by your application. These are generally used to support your application.
+
+- **py**- Properties with prefix py are Read/Write so can be overridden in your application.
+
+- **pz**- Properties with prefix pz are Read Only and cannot be overridden or extended by - your application.
+
 Pega properties have access controls.
 
 pX Example - Date time property.
