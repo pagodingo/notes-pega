@@ -67,21 +67,3 @@ Circumstancing rules can only be focused upon:
 1. Search bar, blue check, click, bulk actions, open window, select all, give comments (check-in comments), (check-in) start
 
 ---
-
-```md
-Observation: There aren't many situations where a circumstance solves a problem that a Decision Table or comparable rules could not.
-
-Response: "If you have 20-30 conditions, writing a big decision table can be hectic. Additionally, a Decision Table will evaluate each and every condition until a match is met, which takes more time.
-
-Fix: Use a data reference to lookup key/value pairs.
-
-Response: "Yes, but even that is **costly**. You have to create additional data pages each call"
-
-Is the cost of a few more operations (through calling new data pages) truly **more expensive** than the added complexities a Circumstance brings?
-
-If the only argument is that "circumstances are actually employed behind-the-scenes, and they evaluate faster than key/value pairs and decision tables.": The Pega Platform isn't very fast as it is. So, the benefit of circumstances still isn't apparent.
-
-Pega boasts ease-of-use, and simplicity. Why design something that's supposedly fast, but not simple, if simple's your mission statement?
-
-The speed battle's lost - stick to simplicity. Tools should be intuitive.
-```
