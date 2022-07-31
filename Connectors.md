@@ -7,6 +7,6 @@
 
 ## Using Connectors to create case(s)
 
-## Using Services to retrieve data
+## Using Connectors to retrieve data
 
 - Results must be in the form of an array.
