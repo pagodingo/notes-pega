@@ -21,7 +21,7 @@ Exposing PEGA Data model(s) through REST Services:
 
 |**Service Package**|Name|Associated Class|
 |-|-|-|
-||RESTServicesPackage|OOO-AAA-Int-|
+||RESTServicesPackage|****Parent Class****|
 
 |REST Service|Name|Method|Request|Response|
 |-|-|-|-|-|
