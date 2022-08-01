@@ -11,8 +11,6 @@ Exposing PEGA Data model(s) through REST Services:
 ||ProductPrice|
 ||ProductDescription|
 
-Defining your Service Package & Property in the root of your Application's Integration class may not be desired. You can optionally create a `OOO-AAA-Int-RESTServices` class to house your **Service Package**, **Response Properties**, and **Services**.
-
 |**Parent Class**|
 |-|
 |OOO-AAA-Int-|
@@ -29,3 +27,5 @@ Defining your Service Package & Property in the root of your Application's Integ
 |-|-|-|-|
 |**Methods:**||||
 ||GET||JSON, Map From Key: .GetAllProducts|
+
+Defining your Service Package & Property in the root of your Application's Integration class may not be desired. You can optionally create a `OOO-AAA-Int-RESTServices` class to house your **Service Package**, **Response Properties**, and **Services**.
