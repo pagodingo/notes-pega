@@ -1,4 +1,4 @@
-# Configuring REST Services
+# REST Services
 
 Exposing PEGA Data model(s) through REST Services:
 
