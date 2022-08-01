@@ -28,4 +28,4 @@ Exposing PEGA Data model(s) through REST Services:
 |**Methods:**||||
 ||/GetAllProducts (app.pega.com/GetAllProducts)|GET||JSON, Map From Key: .GetAllProducts|
 
-Defining your Service Package & Property in the root of your Application's Integration class may not be desired. You can optionally create a `OOO-AAA-Int-RESTServices` class to house your **Service Package**, **Response Properties**, and **Services**.
+Defining your Service Package & Property in the root of your Application's Integration class may not always be desired. You can optionally create a `OOO-AAA-Int-RESTServices` class to house your **Service Package**, **Response Properties**, and **Services**.
