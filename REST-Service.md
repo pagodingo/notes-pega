@@ -5,7 +5,7 @@ Exposing PEGA Data model(s) through REST Services:
 **Activity-less** approach:
 
 |Data Model|||
-|-|-|-|-|
+|-|-|-|
 |Product|||
 ||ProductName||
 ||ProductPrice||
