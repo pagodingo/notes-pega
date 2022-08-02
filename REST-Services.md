@@ -15,7 +15,7 @@ Exposing PEGA Data model(s) through REST Services:
 |-|
 |OOO-AAA-Int-|
 
-|**Parent Class Property**|Name|Type|Referenced Data Page|
+|**Parent Class: + Property**|Name|Type|Referenced Data Page|
 |-|-|-|-|
 ||.GetAllProducts|Page List|D_ProductList
 
