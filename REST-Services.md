@@ -4,6 +4,10 @@ Exposing PEGA Data model(s) through REST Services:
 
 **Activity-less** approach:
 
+---
+
+**<u>Ingredients:</u>**
+
 |Data Model||
 |-|-|
 |<u>Product</u>||
@@ -27,6 +31,8 @@ Exposing PEGA Data model(s) through REST Services:
 |-|-|-|-|-|-|
 |**Methods:**||||
 ||/GetAllProducts (app.pega.com/GetAllProducts)|**Parent Class**|GET||JSON, Map From Key: .GetAllProducts|
+
+---
 
 Defining your Service Package & Property in the root of your Application's Integration class may not always be ideal. You can optionally create a `OOO-AAA-Int-RESTServices` class to house your **Service Package**, **Response Properties**, and **Service(s)**.
 
