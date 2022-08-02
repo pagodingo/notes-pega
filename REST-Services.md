@@ -36,5 +36,3 @@ Defining your Service Package & Property in the root of your Application's Integ
 **Walkthrough:**
 
 <iframe src="https://drive.google.com/file/d/1RAY19vV5MncY4IUIEipih10dpE6E9OUK/preview" width="640" height="480" allow="autoplay"></iframe>
-=======
->>>>>>> a91966561683ab79f09975c09b11857970004363
