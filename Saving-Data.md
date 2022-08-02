@@ -22,7 +22,7 @@ Activity Methods:
 
 I'm going to write this down for a third time because this is so hard to remember.
 
-**Only an activity can save data.**
+~~**Only an activity can save data.**~~
 
 To save data, create whatever data model you're trying to save. A single property, field group. Whatever.
 
