@@ -66,3 +66,22 @@ You don't ***save*** data references. You ***view*** data references.
 You ***save*** Embedded Data.
 
 If you define a new data object through view, you can't change its pyGUID easily. I'm sure you can, but it's not easy. So, if you want to set something like the `Account number` of an Account as the GUID, you'll have to define the model in your data types first.
+
+#### Saving Data with Data Transforms
+
+Ingredients:
+
+- Data Transform
+- Save Data Page Automation Shape
+- Savable Data page
+
+Configure a New Data source for the Savable Data Page, let the new source be a Data Transform
+
+Inside the Data transorm, reference these classes & pages:
+
+- pyWorkPage
+- D_SavablePage (your savable page (ooo-aaa-data-dmodel))
+
+In your Save Data Page Shape, toggle Use associated property and reference the property to be saved.
+
+Open the property and set its data access to Refer to a data page, the savable data page. Set its pyGUID to `new{...modelname}`
