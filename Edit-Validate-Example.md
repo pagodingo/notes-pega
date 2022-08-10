@@ -37,7 +37,7 @@ if (theValue.trim().length() == 0) {
 }
 java.util.Date  theDate = tools.getDateTimeUtils().parseDateTimeString(theValue);
 
-if (theDate != null && ! theDate.after(tools.getDateTimeUtils().parseDateTimeString("20040810T001940.553 GMT"))){
+if (theDate != null && ! theDate.after(tools.getDateTimeUtils().parseDateTimeString("20040810T001940.553 GMT"))){ // hardcoded value - additional logic needed for true base case
   return true;
 }
 
