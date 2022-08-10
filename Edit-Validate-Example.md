@@ -36,11 +36,11 @@ if (theValue.trim().length() == 0) {
     return false;
 }
 java.util.Date  theDate = tools.getDateTimeUtils().parseDateTimeString(theValue);
-
-if (theDate != null && ! theDate.after(tools.getDateTimeUtils().parseDateTimeString("20040810T001940.553 GMT"))){ // hardcoded value - additional logic needed for true base case
+ /* hardcoded value - additional logic needed for true base case */
+if (theDate != null && ! theDate.after(tools.getDateTimeUtils().parseDateTimeString("20040810T001940.553 GMT"))){
   return true;
 }
 
-theProperty.addMessage("You must be 18 years or older to purcahse a new mobile plan");
+theProperty.addMessage("You must be over 18 to purcahse a new mobile plan");
 return false;
 ```
