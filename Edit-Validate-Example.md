@@ -30,7 +30,7 @@ return true;
 ```
 
 ```java
-//Date of Birth >= 18
+// Date of Birth >= 18
 
 if (theValue.trim().length() == 0) {
     return false;
