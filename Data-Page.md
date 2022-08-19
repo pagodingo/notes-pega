@@ -14,4 +14,3 @@ Scope of data page:
 2. Requestor- If the Scope of a Data Page is specified as Requestor, it can be accessed by all the threads opened by the requestor.
 
 3. Thread- If the Scope of a Data Page is specified as a Thread, it can be accessed only by that particular thread.
-

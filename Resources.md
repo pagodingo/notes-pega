@@ -1,7 +1,9 @@
 # Resources
 
-- [Pega Academy](https://academy.pega.com/), Great resource for finding visual configuration of rules.
-- [Harsha Trainings Pega](https://www.youtube.com/c/HarshaTrainingsacademy), Explanations, tips, communication.
+- [Pega Academy](https://academy.pega.com/)
+    - Great resource for finding visual configuration of rules.
+- [Harsha Trainings Pega](https://www.youtube.com/c/HarshaTrainingsacademy)
+    - Explanations, tips, communication.
 
 **Additional** *
 - [One Stop Pega](https://onestoppega.com/), another blogger
