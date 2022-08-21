@@ -14,4 +14,4 @@ Yes
 
         What is the difference between class joins and sub reports?
         
-Class joins join data from two tables together. Sub reports will return data from one report, then, a new report will be generated from the results of the first, typically after some additional filtering. 
+Class joins, join data from two tables. Sub reports will return data from one report, then, a new report will be generated from the results of the first, typically after some additional filtering. 
