@@ -3,7 +3,7 @@
 |Resource|Contents|
 |-|-|
 |<a href="https://academy.pega.com/" target="_blank">Pega Academy</a>|Great resource for visual references, and videos explaning how to implement rules.|
-|<a href="https://docs.pega.com/sites/default/files/help_v73/zstandardrules/standardrulesindex.htm" target="_blank">Pega Standard Rules</a>()|A list of frequently used, out-of-the-box (OOTB) Pega Standard Rules|
+|<a href="https://docs.pega.com/sites/default/files/help_v73/zstandardrules/standardrulesindex.htm" target="_blank">Pega Standard Rules</a>|A list of frequently used, out-of-the-box (OOTB) Pega Standard Rules|
 |<a href="https://www.youtube.com/c/HarshaTrainingsacademy" target="_blank">Harsha Trainings Pega</a>|Explanations, tips, notes on effective communication.|
 
 
