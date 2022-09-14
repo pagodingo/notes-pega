@@ -1,8 +1,8 @@
-# Processes & Flows
+# Data Propagation Without Data Transforms
 
-## Set the value of one property to another (without DTs)
+The following discussion (and example) explains how to move data from one property to another in Pega, without Data Transforms. This post focues on moving data from one property to another inside the *same* case type, because Pega already provides an easy way to propogate data in other scenarios (parent-to-child, or reverse).
 
-- In Case Lifecycle Designer, first open the assignment that contains the property (that is going to be set to another), and check `Set Properties` on the flow action leading away from the assignment shape.
+In the Case Lifecycle Designer, first, open the assignment that contains the property (that is going to be set to another), and check `Set Properties` on the flow action leading away from the assignment shape.
 
 This process is simpler than creating a DT to pass data from property-to-property, and it performs exactly the same.
 
