@@ -12,6 +12,6 @@
 
 - How to setup a RESTful Web Service, without an activity!
 
-    📚 Web-Services-and-Connectors > 📝 REST-Services.md
+   Go to -> 📚 Web-Services-and-Connectors > 📝 REST-Services.md
 
 <img src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_025e4974139a3455132150b9ebc77ac5/pega-platform.jpg" />
