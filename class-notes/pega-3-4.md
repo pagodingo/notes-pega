@@ -10,9 +10,7 @@ Routing can be configured based upon different conditions: on Skill, Availabilit
 >
 > This is important, because it is only in steps like Collect Information, where a user may input or make changes to data in a case's lifecyle.
 
-There are four types of routing:
-
-<button onclick="(() => alert('hello from inline onclick'))()"> inline onclick </button>
+<button onclick="(() => alert('hello from inline onclick'))()">4 types</button>
 
 * Work List Routing (Route to: an individual user)
 * Work Queue (Route to: Team/Group)
