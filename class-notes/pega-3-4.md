@@ -12,6 +12,8 @@ Routing can be configured based upon different conditions: on Skill, Availabilit
 
 There are four types of routing:
 
+<button onclick="(() => alert('hello from inline onclick'))()"> inline onclick </button>
+
 * Work List Routing (Route to: an individual user)
 * Work Queue (Route to: Team/Group)
 * Business Logic (Route to: the above, based on more configurable conditions)
