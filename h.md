@@ -1,1 +1,1 @@
-<button onclick="(() => console.log('hello from inline onclick'))()"> inline onclick </button>
+<button onclick="(() => alert('hello from inline onclick'))()"> inline onclick </button>
