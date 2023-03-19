@@ -62,6 +62,8 @@ Guardrail compliance is scored (%).
 
 To view: Configure > Application > Quality > Dashboard
 
+:two_hearts:
+
 To raise guardrail compliance score:
 
 [^1] Dashboard > Guardrail (**View details**) > Rules with Warnings.
