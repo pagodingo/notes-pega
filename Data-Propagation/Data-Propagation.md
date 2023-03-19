@@ -4,7 +4,7 @@
 
 *Child-to-Parent Data Propagation:*
 
-1. **Create Parent Case**
+1. **Create Case #1**
      - <u>2  Stages</u>
           - Stage (New)
                - Step: New (Blank)
@@ -13,7 +13,7 @@
           - Stage (Display child case: data)
                - Step: Display Child Data
                     - 1 field: Data from child -- type: text(single line) --
-2. **Create Child Case**
+2. **Create Case #2**
      - <u>1  Stage</u>
           - Stage (New)
                - Step: Data (Collect info) -- Set Case Status to *Resolved-Completed*
