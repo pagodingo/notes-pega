@@ -7,3 +7,14 @@
 - Report definitions can be found under the **Reports** category in the **Records** explorer. Or, under Reports in your respctive Case Type, if configured at case level.
 
 - Results from a Report Definition can be filtered (by use of conditions: *when* rules).
+
+
+        <pre className="ascii">
+  __             
+ / _| ___   ___  
+| |_ / _ \ / _ \ 
+|  _| (_) | (_) |
+|_|  \___/ \___/ 
+
+
+        </pre>
