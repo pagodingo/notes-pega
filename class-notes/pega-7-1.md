@@ -9,7 +9,7 @@
 - Results from a Report Definition can be filtered (by use of conditions: *when* rules).
 
 
-        <p className="ascii">
+        <textarea className="ascii">
   __             
  / _| ___   ___  
 | |_ / _ \ / _ \ 
@@ -17,4 +17,4 @@
 |_|  \___/ \___/ 
 
 
-        </p>
+        </textarea>
